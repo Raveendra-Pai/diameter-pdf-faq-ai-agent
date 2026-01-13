@@ -1,0 +1,21 @@
+# LLM (Ollama)
+langchain-ollama
+
+# LangChain core + integrations
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Vector DB
+langchain-chroma
+chromadb
+
+# Embeddings
+fastembed
+
+# MCP
+fastmcp
+langchain-mcp-adapters
+
+# PDF parsing dependency used by PyPDFLoader
+pypdf
