@@ -19,3 +19,7 @@ langchain-mcp-adapters
 
 # PDF parsing dependency used by PyPDFLoader
 pypdf
+
+#run tests
+pytest
+
