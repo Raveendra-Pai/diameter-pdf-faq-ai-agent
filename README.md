@@ -1,4 +1,5 @@
-📌** Project: Diameter PDF FAQ AI Agent (Local RAG + MCP)**
+📌 **Project: Diameter PDF FAQ AI Agent (Local RAG + MCP)**
+
 This repository contains a local-first AI agent that answers technical questions from the Diameter protocol PDF documentation.
 
 **✅ Key Features**
@@ -37,16 +38,22 @@ Make sure you have these installed:
 - Git (optional, for cloning)
 
 1️⃣ Clone the repo
-- git clone https://github.com/Raveendra-Pai/diameter-pdf-faq-ai-agent
-- cd diameter_pdf_faq_ai_agent
+ ```bash
+ git clone https://github.com/Raveendra-Pai/diameter-pdf-faq-ai-agent
+ cd diameter_pdf_faq_ai_agent
+ ```
 
 2️⃣ Create & activate virtual environment (Recommended)
 For Windows (PowerShell) :
+  ```bash
  python -m venv .venv
  .\.venv\Scripts\Activate.ps1
+ ```
 
 3️⃣ Install dependencies
+ ```bash
  pip install -r requirements.txt
+ ```
 
 4️⃣ Install and run Ollama (Mistral)
  - Download and Install from the official Ollama website [https://ollama.com/download]
@@ -57,12 +64,16 @@ For Windows (PowerShell) :
 
 5️⃣ Run the project
  - Start the MCP-RAG Client (Main App)
+   ```bash
       python main.py
+   ```   
 - You should see:
+```bash  
 --- Diameter MCP-RAG Agent Online (type 'exit' to quit) ---
 Then ask questions like:
 What is CCR stands for ?
 what is the command code of CCA ?
+```
 
 
 
