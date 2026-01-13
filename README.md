@@ -13,6 +13,9 @@ This repository contains a local-first AI agent that answers technical questions
 - 💻 Runs fully locally (no cloud dependency)
 
 **🏗️ Architecture**
+
+   <img width="672" height="452" alt="FAQ_Agent" src="https://github.com/user-attachments/assets/fcfd9c9d-925f-4748-96ae-7e3fd232c08b" />
+ 
  1. PDF → chunks → embeddings → Chroma DB
  2. Query → retrieve top-k relevant chunks
  3. Inject context into LLM prompt
